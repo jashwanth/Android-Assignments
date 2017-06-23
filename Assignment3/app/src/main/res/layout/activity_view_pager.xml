@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+<android.support.design.widget.TabLayout
+    android:id = "@+id/tabs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    app:tabMode="scrollable"
+    app:tabGravity="fill" />
+   <!-- app:tabTextColor="@color/textcolorPrimary"
+        app:tabSelectedTextColor="@color/textcolorPrimary
+        app:tabIndicatorColor="@color/colorAccent"-->
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/activity_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPagerActivity"
+    android:background="#ffc0c8"/>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jashwanthreddy.assignment3.ViewPagerActivity">
+
+</RelativeLayout>-->
+</LinearLayout>
