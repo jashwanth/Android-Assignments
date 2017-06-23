@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jashwanthreddy.assignment4.MainActivity">
+    <item
+        android:id="@+id/AboutMe"
+        android:orderInCategory="100"
+        android:title="AboutMe"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/task1"
+        android:orderInCategory="100"
+        android:title="Task1"
+        app:showAsAction="never"/>
+</menu>
