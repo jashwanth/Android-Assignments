@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jashwanthreddy.assignment2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity1"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity2"
+            android:label="Linear layout"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".Activity3"
+            android:theme="@style/AppTheme3"
+            android:label="Calculator"/>
+        <activity android:name=".Activity4"
+            android:label="Movie Display"
+            android:theme="@style/AppTheme4"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

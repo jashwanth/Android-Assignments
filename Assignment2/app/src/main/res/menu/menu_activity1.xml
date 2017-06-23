@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jashwanthreddy.assignment2.Activity1">
+    <item
+        android:id="@+id/task2"
+        android:orderInCategory="100"
+        android:title="Layout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/task3"
+        android:orderInCategory="100"
+        android:title="Calculator"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/task4"
+        android:orderInCategory="100"
+        android:title="Movies"
+        app:showAsAction="never" />
+</menu>
