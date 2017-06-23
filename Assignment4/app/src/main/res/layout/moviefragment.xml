@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/moviefragment"
+    android:background="#b0dfec">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/movietitle"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieimageView"
+        android:layout_alignStart="@+id/moviedescription"
+        android:layout_marginTop="15dp"
+        android:id="@+id/movieyear"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        app:srcCompat="@drawable/alice"
+        android:layout_marginTop="28dp"
+        android:id="@+id/movieimageView"
+        android:layout_below="@+id/moviedescription"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/moviedescription"
+        android:layout_below="@+id/movietitle"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieyear"
+        android:layout_marginTop="15dp"
+        android:id="@+id/moviestar"
+        android:gravity="center_horizontal" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/movieratingBar"
+        android:isIndicator="false"
+        android:layout_below="@+id/moviestar"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        style="@style/Base.Widget.AppCompat.RatingBar"/>
+</RelativeLayout>
