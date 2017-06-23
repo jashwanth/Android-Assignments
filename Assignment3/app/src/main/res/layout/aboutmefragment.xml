@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aboutmelayout">
+
+    <TextView
+        android:text="CIS600"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:background="#ffa62f"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="100dp" />
+
+    <TextView
+        android:text="JASHWANTH REDDY GANGULA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:background="#ffa62f"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <ImageView
+        app:srcCompat="@drawable/dp"
+        android:id="@+id/imageView"
+        android:gravity="center_horizontal"
+        android:background="#f4c2c2"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

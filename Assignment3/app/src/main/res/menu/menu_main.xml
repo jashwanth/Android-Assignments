@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jashwanthreddy.assignment3.MainActivity">
+
+    <item
+        android:id="@+id/AboutMe"
+        android:orderInCategory="100"
+        android:title="HomePage"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/task2"
+        android:orderInCategory="100"
+        android:title="Task2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/task3"
+        android:orderInCategory="100"
+        android:title="Task3"
+        app:showAsAction="never"/>
+
+</menu>
