@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mybackground"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout_fragment_coverpage">
+
+    <ImageView
+        android:id="@+id/demo_icon"
+        android:src="@drawable/spring"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:text="Week 10"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#0A0A0A"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#A0A0A0"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="Start RemoteControlActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button2"
+        android:text="Drawable Experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button3"
+        android:text="Drag and Drop Experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="testAnimation"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:text="Animation Experiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/recycerviewbutton"
+        android:text="Recycler View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textview_showresult"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
